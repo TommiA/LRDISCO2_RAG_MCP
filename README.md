@@ -4,7 +4,7 @@ This is a transformation of https://github.com/TommiA/LRDISCO2_RAG_LLAMA3 to MCP
 
 This is an intersectional combination of Artificial Intelligence (AI) and specifically Large Language Models (LLM), Natural Language Processing, PDFs, Land Rovers and car maintenance - a rainy day summer project for fun.
 
-This project implements a Retrieval-Augmented Generation (RAG) system with a quantized version of the LLAMA 3 8B Large Language Model. The system uses the Chroma vector database to store parts of the Land Rover Discovery II maintenance manual (not included in this repository) and provides a knowledge base about the Discovery II and its maintenance. Data is not included: See [read_pdf_to_chroma_langchain.py](read_pdf_to_chroma_langchain.py) to preprocesses the input PDF file to the data/pdf folder, dividing it to chunks of text and embedding, finally storing it to the Chroma DB
+This project implements a Retrieval-Augmented Generation (RAG) system with a quantized version of the LLAMA 3 8B Large Language Model. The system uses the Chroma vector database to store parts of the Land Rover Discovery II maintenance manual (not included in this repository) and provides a knowledge base about the Discovery II and its maintenance. Data is not included: See [read_pdf_to_chroma_langchain.py](read_pdf_to_chroma_langchain.py) to preprocesses the input PDF file to the data/pdf folder, dividing it to chunks of text and embedding, finally storing it to the Chroma DB. You need to have your own legal copy of RAVE to source the PDF.
 
 The core of this system is a Model Control Protocol (MCP) server that exposes a single tool for querying the knowledge base. This server architecture allows for flexible integration with various clients and applications.
 
