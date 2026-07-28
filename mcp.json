@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "chroma-rag": {
+      "command": "python",
+      "args": [
+        "<Path to>\LRDISCO2_MCP_server.py"
+      ]
+    }
+  }
+}
